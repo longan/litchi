@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"github.com/longan/litchi/controllers"
 	"github.com/astaxie/beego"
+	"github.com/longan/litchi/controllers"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+	beego.Router("/", &controllers.MainController{})
 }
