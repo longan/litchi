@@ -11,7 +11,7 @@ type Resources struct {
 	DiskUsage   uint64 `json:disk_usage`
 }
 
-func ConstructResources(cpuTotal uint64, cpuUsage uint64, memoryTotal uint64, memoryUsage uint64, diskTotal uint64, diskUsage uint64) *Resources {
+func NewResources(cpuTotal uint64, cpuUsage uint64, memoryTotal uint64, memoryUsage uint64, diskTotal uint64, diskUsage uint64) *Resources {
 	resources := Resources{}
 
 	resources.CpuTotal = cpuTotal
