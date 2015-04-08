@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/longan/litchi/controllers"
+	"github.com/longan/litchi/web/controllers"
 )
 
 func init() {

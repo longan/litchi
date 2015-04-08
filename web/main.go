@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/astaxie/beego"
-	_ "github.com/longan/litchi/routers"
+	_ "github.com/longan/litchi/web/routers"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package test
 
 import (
-	_ "github.com/longan/litchi/routers"
+	_ "github.com/longan/litchi/web/routers"
 	"net/http"
 	"net/http/httptest"
 	"path/filepath"
